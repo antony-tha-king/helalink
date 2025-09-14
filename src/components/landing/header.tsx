@@ -20,19 +20,8 @@ export function Header() {
           <Zap className="h-6 w-6 text-primary" />
           <span className="font-bold text-xl">HelaLink</span>
         </Link>
-        <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          {navLinks.map((link) => (
-             <Link
-              key={link.href}
-              href={link.href}
-              className="text-muted-foreground transition-colors hover:text-foreground"
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <Button asChild className="hidden sm:inline-flex">
+          <Button asChild className="hidden sm:inline-flex glitter-effect">
             <Link href="https://helalink.com/register.php?ref=antony" target="_blank" rel="noopener noreferrer">
               Sign Up
             </Link>
@@ -58,7 +47,7 @@ export function Header() {
                     {link.label}
                   </Link>
                 ))}
-                <Button asChild className="mt-4">
+                <Button asChild className="mt-4 glitter-effect">
                   <Link href="https://helalink.com/register.php?ref=antony" target="_blank" rel="noopener noreferrer">
                     Sign Up
                   </Link>
