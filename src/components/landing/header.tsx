@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Zap } from "lucide-react";
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -33,7 +32,6 @@ export function Header() {
           ))}
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <ThemeToggle />
           <Button asChild className="hidden sm:inline-flex">
             <Link href="https://helalink.com/register.php?ref=antony" target="_blank" rel="noopener noreferrer">
               Sign Up
