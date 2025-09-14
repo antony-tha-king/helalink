@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { MotionWrapper } from "../motion-wrapper";
 
 const faqItems = [
   {
@@ -32,6 +33,7 @@ export function Faq() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
+        <MotionWrapper>
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-3">
             <div className="inline-block rounded-lg bg-primary/10 text-primary px-3 py-1 text-sm font-medium">FAQ</div>
@@ -43,7 +45,9 @@ export function Faq() {
             </p>
           </div>
         </div>
+        </MotionWrapper>
         <div className="mx-auto max-w-3xl pt-12">
+          <MotionWrapper>
           <Accordion type="single" collapsible className="w-full">
             {faqItems.map((item, index) => (
               <AccordionItem value={`item-${index}`} key={index}>
@@ -54,6 +58,7 @@ export function Faq() {
               </AccordionItem>
             ))}
           </Accordion>
+          </MotionWrapper>
         </div>
       </div>
     </section>

@@ -6,6 +6,7 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { placeHolderImages } from "@/lib/placeholder-images";
 import { Star } from "lucide-react";
+import { MotionWrapper } from "../motion-wrapper";
 
 const testimonials = [
   {
@@ -32,6 +33,7 @@ export function Testimonials() {
   return (
     <section id="testimonials" className="w-full py-12 md:py-24 lg:py-32 bg-muted/20 dark:bg-muted/40">
       <div className="container px-4 md:px-6">
+        <MotionWrapper>
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-3">
             <div className="inline-block rounded-lg bg-primary/10 text-primary px-3 py-1 text-sm font-medium">Testimonials</div>
@@ -43,11 +45,13 @@ export function Testimonials() {
             </p>
           </div>
         </div>
+        </MotionWrapper>
         <div className="mx-auto grid max-w-5xl items-stretch gap-8 sm:grid-cols-1 md:grid-cols-3 pt-12">
           {testimonials.map((testimonial) => {
             const image = placeHolderImages.find(img => img.id === testimonial.id)!;
             return (
-              <Card key={testimonial.id} className="flex flex-col p-6">
+              <MotionWrapper key={testimonial.id}>
+              <Card className="flex flex-col p-6">
                 <CardContent className="p-0 flex-grow flex flex-col justify-between">
                   <div className="flex items-center gap-1 text-yellow-400 mb-4">
                       <Star className="h-5 w-5 fill-current" />
@@ -69,6 +73,7 @@ export function Testimonials() {
                   </div>
                 </CardContent>
               </Card>
+              </MotionWrapper>
             );
           })}
         </div>
