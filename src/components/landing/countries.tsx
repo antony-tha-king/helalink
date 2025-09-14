@@ -2,8 +2,8 @@ import Image from "next/image";
 import { placeHolderImages } from "@/lib/placeholder-images";
 
 export function Countries() {
-  const nationalityImages = placeHolderImages.filter(img => img.id.startsWith("nationality-"));
-  const marqueeImages = [...nationalityImages, ...nationalityImages];
+  const cityImages = placeHolderImages.filter(img => img.id.startsWith("city-"));
+  const marqueeImages = [...cityImages, ...cityImages];
 
   return (
     <section className="w-full py-12 md:py-20 lg:py-24 bg-background">

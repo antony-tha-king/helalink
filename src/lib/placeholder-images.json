@@ -37,52 +37,52 @@
       "imageHint": "logo brand"
     },
     {
-      "id": "nationality-1",
-      "description": "Portrait of a smiling person of East Asian descent.",
-      "imageUrl": "https://picsum.photos/seed/nation1/400/600",
-      "imageHint": "woman portrait"
+      "id": "city-1",
+      "description": "Iconic view of Paris with the Eiffel Tower.",
+      "imageUrl": "https://picsum.photos/seed/city1/192/256",
+      "imageHint": "paris eiffel"
     },
     {
-      "id": "nationality-2",
-      "description": "Portrait of a person of African descent.",
-      "imageUrl": "https://picsum.photos/seed/nation2/400/600",
-      "imageHint": "man smiling"
+      "id": "city-2",
+      "description": "Tokyo skyline at night with vibrant city lights.",
+      "imageUrl": "https://picsum.photos/seed/city2/192/256",
+      "imageHint": "tokyo skyline"
     },
     {
-      "id": "nationality-3",
-      "description": "Portrait of a person of European descent.",
-      "imageUrl": "https://picsum.photos/seed/nation3/400/600",
-      "imageHint": "woman happy"
+      "id": "city-3",
+      "description": "New York City street view with skyscrapers.",
+      "imageUrl": "https://picsum.photos/seed/city3/192/256",
+      "imageHint": "newyork city"
     },
     {
-      "id": "nationality-4",
-      "description": "Portrait of a person of South Asian descent.",
-      "imageUrl": "https://picsum.photos/seed/nation4/400/600",
-      "imageHint": "man portrait"
+      "id": "city-4",
+      "description": "London city view with the Big Ben.",
+      "imageUrl": "https://picsum.photos/seed/city4/192/256",
+      "imageHint": "london bigben"
     },
     {
-      "id": "nationality-5",
-      "description": "Portrait of a person of Hispanic descent.",
-      "imageUrl": "https://picsum.photos/seed/nation5/400/600",
-      "imageHint": "woman smiling"
+      "id": "city-5",
+      "description": "The ancient pyramids of Giza in Cairo.",
+      "imageUrl": "https://picsum.photos/seed/city5/192/256",
+      "imageHint": "cairo pyramids"
     },
     {
-      "id": "nationality-6",
-      "description": "Portrait of a person of Middle Eastern descent.",
-      "imageUrl": "https://picsum.photos/seed/nation6/400/600",
-      "imageHint": "man happy"
+      "id": "city-6",
+      "description": "The Sydney Opera House in Australia.",
+      "imageUrl": "https://picsum.photos/seed/city6/192/256",
+      "imageHint": "sydney opera"
     },
     {
-      "id": "nationality-7",
-      "description": "Portrait of a person smiling.",
-      "imageUrl": "https://picsum.photos/seed/nation7/400/600",
-      "imageHint": "person portrait"
+      "id": "city-7",
+      "description": "View of Rio de Janeiro with the Christ the Redeemer statue.",
+      "imageUrl": "https://picsum.photos/seed/city7/192/256",
+      "imageHint": "rio christ"
     },
     {
-      "id": "nationality-8",
-      "description": "Portrait of another happy person.",
-      "imageUrl": "https://picsum.photos/seed/nation8/400/600",
-      "imageHint": "woman professional"
+      "id": "city-8",
+      "description": "Modern architecture in Beijing.",
+      "imageUrl": "https://picsum.photos/seed/city8/192/256",
+      "imageHint": "beijing architecture"
     }
   ]
 }
