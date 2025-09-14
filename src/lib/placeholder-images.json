@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A person happily using a smartphone to earn money, with digital currency icons floating around.",
+      "imageUrl": "https://picsum.photos/seed/hero-bg/1920/1080",
+      "imageHint": "mobile finance"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Avatar for Jane Doe",
+      "imageUrl": "https://picsum.photos/seed/jane-doe/100/100",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Avatar for John Smith",
+      "imageUrl": "https://picsum.photos/seed/john-smith/100/100",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Avatar for Samuel Green",
+      "imageUrl": "https://picsum.photos/seed/samuel-green/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "digital-startup",
+      "description": "A modern desk with a laptop showing financial graphs, a notebook, and a smartphone.",
+      "imageUrl": "https://picsum.photos/seed/startup-desk/600/400",
+      "imageHint": "business startup"
+    },
+    {
+      "id": "og-image",
+      "description": "HelaLink logo with a tagline 'Earn from your phone'.",
+      "imageUrl": "https://picsum.photos/seed/helalink-og/1200/630",
+      "imageHint": "logo brand"
+    }
+  ]
 }
