@@ -2,7 +2,6 @@ import Image from "next/image";
 import {
   Card,
   CardContent,
-  CardHeader,
 } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { placeHolderImages } from "@/lib/placeholder-images";
@@ -31,12 +30,12 @@ const testimonials = [
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="testimonials" className="w-full py-12 md:py-24 lg:py-32 bg-muted/20 dark:bg-muted/40">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Testimonials</div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
+          <div className="space-y-3">
+            <div className="inline-block rounded-lg bg-primary/10 text-primary px-3 py-1 text-sm font-medium">Testimonials</div>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               What Our Users Say
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -48,8 +47,16 @@ export function Testimonials() {
           {testimonials.map((testimonial) => {
             const image = placeHolderImages.find(img => img.id === testimonial.id)!;
             return (
-              <Card key={testimonial.id} className="flex flex-col">
-                <CardHeader className="pb-4">
+              <Card key={testimonial.id} className="flex flex-col p-6">
+                <CardContent className="p-0 flex-grow flex flex-col justify-between">
+                  <div className="flex items-center gap-1 text-yellow-400 mb-4">
+                      <Star className="h-5 w-5 fill-current" />
+                      <Star className="h-5 w-5 fill-current" />
+                      <Star className="h-5 w-5 fill-current" />
+                      <Star className="h-5 w-5 fill-current" />
+                      <Star className="h-5 w-5 fill-current" />
+                    </div>
+                  <p className="text-muted-foreground mb-6 text-lg">"{testimonial.quote}"</p>
                   <div className="flex items-center gap-4">
                     <Avatar className="h-12 w-12">
                       <AvatarImage src={image.imageUrl} alt={testimonial.name} data-ai-hint={image.imageHint} />
@@ -59,16 +66,6 @@ export function Testimonials() {
                       <p className="font-semibold">{testimonial.name}</p>
                       <p className="text-sm text-muted-foreground">{testimonial.role}</p>
                     </div>
-                  </div>
-                </CardHeader>
-                <CardContent className="flex-grow flex flex-col justify-between">
-                  <p className="text-muted-foreground">"{testimonial.quote}"</p>
-                  <div className="flex items-center gap-1 text-yellow-400 mt-4">
-                    <Star className="h-5 w-5 fill-current" />
-                    <Star className="h-5 w-5 fill-current" />
-                    <Star className="h-5 w-5 fill-current" />
-                    <Star className="h-5 w-5 fill-current" />
-                    <Star className="h-5 w-5 fill-current" />
                   </div>
                 </CardContent>
               </Card>

@@ -4,7 +4,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Award, BotMessageSquare, CircleDollarSign, Clapperboard, Gamepad2, Send } from "lucide-react";
+import { Award, BotMessageSquare, CircleDollarSign, Clapperboard, Gamepad2, Send, Zap } from "lucide-react";
 
 const features = [
   {
@@ -41,14 +41,14 @@ const features = [
 
 export function Features() {
   return (
-    <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-muted/40">
+    <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-muted/20 dark:bg-muted/40">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
+          <div className="space-y-3">
+            <div className="inline-block rounded-lg bg-primary/10 text-primary px-3 py-1 text-sm font-medium">
               Earning Features
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Multiple Ways to Earn
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -56,14 +56,16 @@ export function Features() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:grid-cols-3 pt-12">
+        <div className="mx-auto grid max-w-5xl items-stretch gap-6 sm:grid-cols-2 md:grid-cols-3 pt-12">
           {features.map((feature, index) => (
-            <Card key={index} className="h-full">
-              <CardHeader className="flex flex-col items-center text-center">
-                {feature.icon}
-                <CardTitle className="mt-4 font-headline">{feature.title}</CardTitle>
+            <Card key={index} className="h-full hover:shadow-lg transition-shadow duration-300 border-primary/20">
+              <CardHeader className="flex flex-col items-start">
+                 <div className="bg-primary/10 p-3 rounded-full">
+                    {feature.icon}
+                  </div>
+                <CardTitle className="mt-4 font-bold text-xl">{feature.title}</CardTitle>
               </CardHeader>
-              <CardContent className="text-center text-muted-foreground">
+              <CardContent className="text-muted-foreground text-left">
                 <p>{feature.description}</p>
               </CardContent>
             </Card>

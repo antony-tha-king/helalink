@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 
 export function Cta() {
   return (
-    <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-muted/40">
+    <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-muted/20 dark:bg-muted/40">
       <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
         <div className="space-y-3">
-          <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight font-headline">
+          <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
             Ready to Start Earning?
           </h2>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">

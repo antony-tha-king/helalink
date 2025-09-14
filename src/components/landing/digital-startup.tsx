@@ -1,24 +1,44 @@
 import Image from "next/image";
 import { placeHolderImages } from "@/lib/placeholder-images";
+import { CheckCircle } from "lucide-react";
 
 export function DigitalStartup() {
   const image = placeHolderImages.find(img => img.id === "digital-startup")!;
 
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/20 dark:bg-muted/40">
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
-          <div className="space-y-4">
-            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Business Opportunity</div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
-              Your Own Digital Startup
-            </h2>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              HelaLink isn't just about earning extra cash. It's a gateway to launching your own digital business. With our tools and your ambition, you can build a sustainable income stream and achieve financial independence.
-            </p>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We provide the platform, the products, and the payment systems. You bring the drive. From reselling our digital products to building a massive referral network, the possibilities for growth are limitless.
-            </p>
+          <div className="space-y-6">
+            <div className="space-y-3">
+              <div className="inline-block rounded-lg bg-primary/10 text-primary px-3 py-1 text-sm font-medium">Business Opportunity</div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                Your Own Digital Startup
+              </h2>
+              <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                HelaLink isn't just about earning extra cash. It's a gateway to launching your own digital business. With our tools and your ambition, you can build a sustainable income stream and achieve financial independence.
+              </p>
+            </div>
+            <ul className="grid gap-4">
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0"/>
+                <p className="text-muted-foreground">
+                  <span className="font-semibold text-foreground">Platform Provided:</span> We give you the tools, products, and payment systems to succeed.
+                </p>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0"/>
+                <p className="text-muted-foreground">
+                  <span className="font-semibold text-foreground">Limitless Growth:</span> From reselling digital products to building a massive referral network, the possibilities are endless.
+                </p>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0"/>
+                <p className="text-muted-foreground">
+                  <span className="font-semibold text-foreground">You Bring the Drive:</span> Your ambition is the only limit to your potential earnings.
+                </p>
+              </li>
+            </ul>
           </div>
           <div className="flex justify-center">
             <Image
@@ -26,8 +46,8 @@ export function DigitalStartup() {
               alt={image.description}
               data-ai-hint={image.imageHint}
               width={600}
-              height={400}
-              className="rounded-xl object-cover"
+              height={450}
+              className="rounded-xl object-cover shadow-2xl"
             />
           </div>
         </div>

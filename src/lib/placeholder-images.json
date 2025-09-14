@@ -2,33 +2,33 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A person happily using a smartphone to earn money, with digital currency icons floating around.",
-      "imageUrl": "https://picsum.photos/seed/hero-bg/1920/1080",
-      "imageHint": "mobile finance"
+      "description": "A person happily using a smartphone to earn money, with digital currency icons floating around in a futuristic setting.",
+      "imageUrl": "https://picsum.photos/seed/hero-new/1920/1080",
+      "imageHint": "finance technology"
     },
     {
       "id": "testimonial-1",
       "description": "Avatar for Jane Doe",
-      "imageUrl": "https://picsum.photos/seed/jane-doe/100/100",
-      "imageHint": "woman portrait"
+      "imageUrl": "https://picsum.photos/seed/jane-doe-2/100/100",
+      "imageHint": "woman smile"
     },
     {
       "id": "testimonial-2",
       "description": "Avatar for John Smith",
-      "imageUrl": "https://picsum.photos/seed/john-smith/100/100",
-      "imageHint": "man portrait"
+      "imageUrl": "https://picsum.photos/seed/john-smith-2/100/100",
+      "imageHint": "man professional"
     },
     {
       "id": "testimonial-3",
       "description": "Avatar for Samuel Green",
-      "imageUrl": "https://picsum.photos/seed/samuel-green/100/100",
-      "imageHint": "person portrait"
+      "imageUrl": "https://picsum.photos/seed/samuel-green-2/100/100",
+      "imageHint": "person happy"
     },
     {
       "id": "digital-startup",
-      "description": "A modern desk with a laptop showing financial graphs, a notebook, and a smartphone.",
-      "imageUrl": "https://picsum.photos/seed/startup-desk/600/400",
-      "imageHint": "business startup"
+      "description": "A modern and clean workspace with a laptop displaying financial charts and a smartphone, suggesting a digital business.",
+      "imageUrl": "https://picsum.photos/seed/startup-new/600/450",
+      "imageHint": "digital business"
     },
     {
       "id": "og-image",

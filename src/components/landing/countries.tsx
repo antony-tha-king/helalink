@@ -19,7 +19,7 @@ export function Countries() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Available Worldwide
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -44,45 +44,73 @@ export function Countries() {
   );
 }
 
-// SVG Flag Components (simplified)
+
 function KenyaFlag() {
-  return (
-    <svg viewBox="0 0 900 600" width="100%" height="100%">
-      <rect width="900" height="600" fill="#fff"/>
-      <rect width="900" height="200" fill="#000"/>
-      <rect y="200" width="900" height="200" fill="#B01F24"/>
-      <rect y="400" width="900" height="200" fill="#006600"/>
-    </svg>
-  );
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+            <rect width="900" height="600" fill="#fff"/>
+            <rect width="900" height="200" fill="#000"/>
+            <rect y="200" width="900" height="200" fill="#B01F24"/>
+            <rect y="400" width="900" height="200" fill="#006600"/>
+            <rect y="188" width="900" height="24" fill="#fff"/>
+            <rect y="388" width="900" height="24" fill="#fff"/>
+            <g transform="translate(450 300)">
+                <path d="M-75-150v300h150v-300z" fill="#B01F24"/>
+                <path d="M-60-150v300h120v-300z" fill="#fff" transform="scale(.95)"/>
+                <path d="M-20-150a150 150 0 000 300" fill="#000"/>
+                <path d="M20-150a150 150 0 010 300" fill="#000" transform="scale(-1,1)"/>
+                <circle r="40" fill="#B01F24"/>
+                <circle r="30" fill="#fff"/>
+            </g>
+        </svg>
+    );
 }
 
 function NigeriaFlag() {
   return (
-    <svg viewBox="0 0 900 600" width="100%" height="100%">
-      <rect width="900" height="600" fill="#fff" />
-      <rect width="300" height="600" fill="#008753" />
-      <rect width="300" height="600" x="600" fill="#008753" />
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+        <rect width="900" height="600" fill="#fff"/>
+        <rect width="300" height="600" fill="#008753"/>
+        <rect x="600" width="300" height="600" fill="#008753"/>
     </svg>
   );
 }
 
 function USAFlag() {
   return (
-    <svg viewBox="0 0 7410 3900" width="100%" height="100%">
-      <rect width="7410" height="3900" fill="#BF0A30"/>
-      <path d="M0,300H7410 M0,900H7410 M0,1500H7410 M0,2100H7410 M0,2700H7410 M0,3300H7410" stroke="#FFF" strokeWidth="300"/>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7410 3900">
+      <rect width="7410" height="3900" fill="#FFF"/>
+      <path d="M0,300H7410M0,900H7410M0,1500H7410M0,2100H7410M0,2700H7410M0,3300H7410" stroke="#BF0A30" strokeWidth="300"/>
       <rect width="2964" height="2100" fill="#002868"/>
+      <g fill="#FFF">
+        <g id="s50">
+          <g id="s9">
+            <g id="s5">
+              <path id="s" d="M247,90l76,231-198-143h244l-198,143z"/>
+              <use href="#s" y="420"/>
+              <use href="#s" y="840"/>
+              <use href="#s" y="1260"/>
+            </g>
+            <use href="#s" y="210"/>
+          </g>
+          <use href="#s9" x="492"/>
+          <use href="#s9" x="984"/>
+          <use href="#s9" x="1476"/>
+          <use href="#s9" x="1968"/>
+          <use href="#s9" x="2460"/>
+        </g>
+      </g>
     </svg>
   );
 }
 
 function UKFlag() {
   return (
-    <svg viewBox="0 0 60 30" width="100%" height="100%">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30">
       <clipPath id="t"><path d="M30,15h30v15zv-30h30z"/></clipPath>
       <path d="M0,0v30h60V0z" fill="#012169"/>
-      <path d="M0,0L60,30m-60,0L60,0" stroke="#fff" strokeWidth="6"/>
-      <path d="M0,0L60,30m-60,0L60,0" clipPath="url(#t)" stroke="#C8102E" strokeWidth="4"/>
+      <path d="M0,0L60,30m0-30L-60,30" stroke="#fff" strokeWidth="6"/>
+      <path d="M0,0L60,30m0-30L-60,30" clipPath="url(#t)" stroke="#C8102E" strokeWidth="4"/>
       <path d="M30,0v30M0,15h60" stroke="#fff" strokeWidth="10"/>
       <path d="M30,0v30M0,15h60" stroke="#C8102E" strokeWidth="6"/>
     </svg>
@@ -91,32 +119,49 @@ function UKFlag() {
 
 function IndiaFlag() {
   return (
-    <svg viewBox="0 0 900 600" width="100%" height="100%">
-      <rect width="900" height="600" fill="#FFF"/>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
       <rect width="900" height="200" fill="#FF9933"/>
-      <rect width="900" height="200" y="400" fill="#138808"/>
-      <circle r="70" cx="450" cy="300" fill="none" stroke="#000080" strokeWidth="20"/>
+      <rect y="200" width="900" height="200" fill="#FFF"/>
+      <rect y="400" width="900" height="200" fill="#138808"/>
+      <g transform="translate(450 300)">
+        <circle r="70" fill="none" stroke="#000080" strokeWidth="1"/>
+        <circle r="20" fill="#000080"/>
+        <g id="d">
+          <g id="c">
+            <g id="b">
+              <g id="a">
+                <path d="M-1,70v-10h2z"/>
+              </g>
+              <use href="#a" transform="rotate(15)"/>
+            </g>
+            <use href="#b" transform="rotate(30)"/>
+          </g>
+          <use href="#c" transform="rotate(60)"/>
+        </g>
+        <use href="#d" transform="rotate(120)"/>
+        <use href="#d" transform="rotate(240)"/>
+      </g>
     </svg>
   );
 }
 
 function SouthAfricaFlag() {
     return (
-        <svg viewBox="0 0 1200 800" width="100%" height="100%">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
             <rect fill="#E03C31" width="1200" height="800" />
-            <path d="M0 400 L1200 400" stroke="#002395" strokeWidth="160" />
+            <path d="M0 400 L400 400 L1200 400" strokeWidth="160" stroke="#002395"/>
             <path d="M0 0 L400 400 L0 800 Z" fill="#007749" />
-            <path d="M0 106 L266 400 L0 694 M200 400 L0 400" stroke="#FFFFFF" strokeWidth="260" />
-            <path d="M0 132 L200 400 L0 668" stroke="#000000" strokeWidth="180" />
-            <path d="M0 400 L200 400" stroke="#FFB612" strokeWidth="80" />
+            <path d="M0 106 L266 400 L0 694 M200 400 L0 400" stroke="#FFFFFF" strokeWidth="260"/>
+            <path d="M0 132 L200 400 L0 668" stroke="#000000" strokeWidth="180"/>
+            <path d="M0 400 L200 400" stroke="#FFB612" strokeWidth="80"/>
         </svg>
     )
 }
 
 function GhanaFlag() {
     return (
-        <svg viewBox="0 0 900 600" width="100%" height="100%">
-            <rect fill="#CE1126" width="900" height="600" />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+            <rect fill="#CE1126" width="900" height="200" />
             <rect fill="#FCD116" y="200" width="900" height="200" />
             <rect fill="#006B3F" y="400" width="900" height="200" />
             <path d="m450 230l58.7785 180.9017h-153.845l124.613 -111.8034h-153.845z" fill="#000000"/>
@@ -126,11 +171,10 @@ function GhanaFlag() {
 
 function TanzaniaFlag() {
     return (
-        <svg viewBox="0 0 900 600" width="100%" height="100%">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
             <path d="M0,0 H900 V600 H0 Z" fill="#1EB53A" />
-            <path d="M0,600 L900,0" stroke="#00A3DD" strokeWidth="270" />
+            <path d="M0,600 L900,0" stroke="#FCD116" strokeWidth="270" />
             <path d="M0,600 L900,0" stroke="#000000" strokeWidth="200" />
-            <path d="M0,600 L900,0" stroke="#FCD116" strokeWidth="130" />
         </svg>
     )
 }

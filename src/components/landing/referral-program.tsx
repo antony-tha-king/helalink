@@ -33,11 +33,11 @@ export function ReferralProgram() {
     <section id="referrals" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
+          <div className="space-y-3">
+            <div className="inline-block rounded-lg bg-primary/10 text-primary px-3 py-1 text-sm font-medium">
               Referral Program
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Earn Together, Grow Faster
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -47,13 +47,15 @@ export function ReferralProgram() {
         </div>
         <div className="mx-auto grid max-w-5xl items-stretch gap-8 sm:grid-cols-1 md:grid-cols-3 pt-12">
           {referralLevels.map((level, index) => (
-            <Card key={index} className="flex flex-col">
-              <CardHeader className="items-center text-center">
-                {level.icon}
-                <CardTitle className="mt-4 font-headline">{level.level}</CardTitle>
-                <CardDescription className="text-3xl font-bold text-primary">{level.reward}</CardDescription>
+            <Card key={index} className="flex flex-col text-center border-t-4 border-primary shadow-lg">
+              <CardHeader className="items-center">
+                 <div className="bg-primary/10 p-4 rounded-full">
+                    {level.icon}
+                  </div>
+                <CardTitle className="mt-4 font-bold text-2xl">{level.level}</CardTitle>
+                <CardDescription className="text-4xl font-bold text-primary">{level.reward}</CardDescription>
               </CardHeader>
-              <CardContent className="text-center text-muted-foreground flex-grow">
+              <CardContent className="text-muted-foreground flex-grow">
                 <p>{level.description}</p>
               </CardContent>
             </Card>
