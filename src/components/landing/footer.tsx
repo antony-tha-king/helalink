@@ -19,22 +19,22 @@ export function Footer() {
           <div className="md:col-span-2">
             <h4 className="font-semibold mb-3">Company</h4>
             <ul className="space-y-2">
-              <li><Link href="/#features" className="text-muted-foreground hover:text-foreground">Features</Link></li>
-              <li><Link href="/#testimonials" className="text-muted-foreground hover:text-foreground">Testimonials</Link></li>
-              <li><Link href="/#contact" className="text-muted-foreground hover:text-foreground">Contact</Link></li>
+              <li><span className="text-muted-foreground hover:text-foreground cursor-default">Features</span></li>
+              <li><span className="text-muted-foreground hover:text-foreground cursor-default">Testimonials</span></li>
+              <li><span className="text-muted-foreground hover:text-foreground cursor-default">Contact</span></li>
             </ul>
           </div>
           <div className="md:col-span-2">
             <h4 className="font-semibold mb-3">Legal</h4>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-muted-foreground hover:text-foreground">Terms of Service</Link></li>
-              <li><Link href="#" className="text-muted-foreground hover:text-foreground">Privacy Policy</Link></li>
+              <li><span className="text-muted-foreground hover:text-foreground cursor-default">Terms of Service</span></li>
+              <li><span className="text-muted-foreground hover:text-foreground cursor-default">Privacy Policy</span></li>
             </ul>
           </div>
           <div className="md:col-span-5 flex flex-col items-start md:items-end">
              <h4 className="font-semibold mb-3">Get Started</h4>
              <p className="text-muted-foreground mb-4 text-sm text-left md:text-right">Join thousands of users earning from their phone.</p>
-              <Button asChild>
+              <Button asChild className="animate-rainbow-border animate-shake">
                 <Link href="https://helalink.com/register.php?ref=antony" target="_blank" rel="noopener noreferrer">
                   Sign Up Now
                 </Link>

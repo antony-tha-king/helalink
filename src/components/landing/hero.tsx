@@ -15,6 +15,10 @@ const headlines = [
   "Your Journey to Financial Freedom Starts Here.",
   "Turn Your Screen Time into Earning Time.",
   "Experience the Ultimate Digital Hustle.",
+  "Monetize Your Influence.",
+  "Get Paid for Your Opinions.",
+  "Your Gateway to Passive Income.",
+  "Work from Anywhere, Anytime.",
 ];
 
 export function Hero() {
@@ -70,7 +74,7 @@ export function Hero() {
           </p>
         </div>
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-          <Button asChild size="lg" className="font-semibold text-lg py-7 px-8">
+          <Button asChild size="lg" className="font-semibold text-lg py-7 px-8 animate-rainbow-border animate-shake">
             <Link href="https://wa.me/254111918657?text=Hello,%20Am%20Interested%20In%20HelaLink">
               Start Now on WhatsApp <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
