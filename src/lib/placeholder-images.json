@@ -25,12 +25,6 @@
       "imageHint": "business person"
     },
     {
-      "id": "digital-startup",
-      "description": "A successful business man in a modern office, looking confidently at the camera.",
-      "imageUrl": "https://picsum.photos/seed/business-man-startup/600/450",
-      "imageHint": "businessman professional"
-    },
-    {
       "id": "og-image",
       "description": "HelaLink logo with a tagline 'Earn from your phone'.",
       "imageUrl": "https://picsum.photos/seed/helalink-og/1200/630",
@@ -38,51 +32,51 @@
     },
     {
       "id": "professional-1",
-      "description": "Portrait of a business professional from North America.",
-      "imageUrl": "https://picsum.photos/seed/prof1/192/256",
-      "imageHint": "businessman portrait"
+      "description": "Portrait of a young entrepreneur from North America.",
+      "imageUrl": "https://picsum.photos/seed/ent1/192/256",
+      "imageHint": "entrepreneur portrait"
     },
     {
       "id": "professional-2",
-      "description": "Portrait of a business professional from Europe.",
-      "imageUrl": "https://picsum.photos/seed/prof2/192/256",
-      "imageHint": "professional male"
+      "description": "Portrait of a female entrepreneur from Europe.",
+      "imageUrl": "https://picsum.photos/seed/ent2/192/256",
+      "imageHint": "female entrepreneur"
     },
     {
       "id": "professional-3",
-      "description": "Portrait of a business professional from Asia.",
-      "imageUrl": "https://picsum.photos/seed/prof3/192/256",
-      "imageHint": "asian businessman"
+      "description": "Portrait of a tech entrepreneur from Asia.",
+      "imageUrl": "https://picsum.photos/seed/ent3/192/256",
+      "imageHint": "asian entrepreneur"
     },
     {
       "id": "professional-4",
-      "description": "Portrait of a business professional from South America.",
-      "imageUrl": "https://picsum.photos/seed/prof4/192/256",
-      "imageHint": "latino businessman"
+      "description": "Portrait of a creative entrepreneur from South America.",
+      "imageUrl": "https://picsum.photos/seed/ent4/192/256",
+      "imageHint": "latino entrepreneur"
     },
     {
       "id": "professional-5",
-      "description": "Portrait of a business professional from Africa.",
-      "imageUrl": "https://picsum.photos/seed/prof5/192/256",
-      "imageHint": "african businessman"
+      "description": "Portrait of a startup founder from Africa.",
+      "imageUrl": "https://picsum.photos/seed/ent5/192/256",
+      "imageHint": "african founder"
     },
     {
       "id": "professional-6",
-      "description": "Portrait of a business professional from Australia.",
-      "imageUrl": "https://picsum.photos/seed/prof6/192/256",
-      "imageHint": "male portrait"
+      "description": "Portrait of a successful entrepreneur from Australia.",
+      "imageUrl": "https://picsum.photos/seed/ent6/192/256",
+      "imageHint": "male entrepreneur"
     },
     {
       "id": "professional-7",
-      "description": "Portrait of a business professional from the Middle East.",
-      "imageUrl": "https://picsum.photos/seed/prof7/192/256",
-      "imageHint": "middle-eastern man"
+      "description": "Portrait of a smiling entrepreneur from the Middle East.",
+      "imageUrl": "https://picsum.photos/seed/ent7/192/256",
+      "imageHint": "middle-eastern entrepreneur"
     },
     {
       "id": "professional-8",
-      "description": "Portrait of another business professional.",
-      "imageUrl": "https://picsum.photos/seed/prof8/192/256",
-      "imageHint": "business professional"
+      "description": "Portrait of another inspiring entrepreneur.",
+      "imageUrl": "https://picsum.photos/seed/ent8/192/256",
+      "imageHint": "inspiring entrepreneur"
     }
   ]
 }
