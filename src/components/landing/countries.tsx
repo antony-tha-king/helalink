@@ -2,7 +2,8 @@ import Image from "next/image";
 import { placeHolderImages } from "@/lib/placeholder-images";
 
 export function Countries() {
-  const image = placeHolderImages.find(img => img.id === "world-map")!;
+  const nationalityImages = placeHolderImages.filter(img => img.id.startsWith("nationality-"));
+  const marqueeImages = [...nationalityImages, ...nationalityImages];
 
   return (
     <section className="w-full py-12 md:py-20 lg:py-24 bg-background">
@@ -17,15 +18,21 @@ export function Countries() {
             </p>
           </div>
         </div>
-        <div className="mt-12 flex justify-center">
-            <Image
-              src={image.imageUrl}
-              alt={image.description}
-              data-ai-hint={image.imageHint}
-              width={1200}
-              height={600}
-              className="rounded-xl object-contain"
-            />
+      </div>
+      <div className="marquee-container mt-12">
+        <div className="marquee-content space-x-4">
+          {marqueeImages.map((image, index) => (
+            <div key={index} className="flex-shrink-0 w-48 h-64 rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src={image.imageUrl}
+                alt={image.description}
+                data-ai-hint={image.imageHint}
+                width={192}
+                height={256}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>
