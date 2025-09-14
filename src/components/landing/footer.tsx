@@ -34,7 +34,7 @@ export function Footer() {
           <div className="md:col-span-5 flex flex-col items-start md:items-end">
              <h4 className="font-semibold mb-3">Get Started</h4>
              <p className="text-muted-foreground mb-4 text-sm text-left md:text-right">Join thousands of users earning from their phone.</p>
-              <Button asChild className="animate-rainbow-border animate-shake">
+              <Button asChild>
                 <Link href="https://helalink.com/register.php?ref=antony" target="_blank" rel="noopener noreferrer">
                   Sign Up Now
                 </Link>

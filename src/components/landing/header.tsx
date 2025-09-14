@@ -32,7 +32,7 @@ export function Header() {
           ))}
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <Button asChild className="hidden sm:inline-flex animate-rainbow-border animate-shake">
+          <Button asChild className="hidden sm:inline-flex">
             <Link href="https://helalink.com/register.php?ref=antony" target="_blank" rel="noopener noreferrer">
               Sign Up
             </Link>
@@ -58,7 +58,7 @@ export function Header() {
                     {link.label}
                   </Link>
                 ))}
-                <Button asChild className="mt-4 animate-rainbow-border animate-shake">
+                <Button asChild className="mt-4">
                   <Link href="https://helalink.com/register.php?ref=antony" target="_blank" rel="noopener noreferrer">
                     Sign Up
                   </Link>
