@@ -8,27 +8,27 @@
     },
     {
       "id": "testimonial-1",
-      "description": "Avatar for Jane Doe",
-      "imageUrl": "https://picsum.photos/seed/jane-doe-2/100/100",
-      "imageHint": "woman smile"
+      "description": "Avatar for Alex Johnson",
+      "imageUrl": "https://picsum.photos/seed/businessman1/100/100",
+      "imageHint": "man portrait"
     },
     {
       "id": "testimonial-2",
-      "description": "Avatar for John Smith",
-      "imageUrl": "https://picsum.photos/seed/john-smith-2/100/100",
-      "imageHint": "man professional"
+      "description": "Avatar for Benjamin Carter",
+      "imageUrl": "https://picsum.photos/seed/businessman2/100/100",
+      "imageHint": "professional man"
     },
     {
       "id": "testimonial-3",
-      "description": "Avatar for Samuel Green",
-      "imageUrl": "https://picsum.photos/seed/samuel-green-2/100/100",
-      "imageHint": "person happy"
+      "description": "Avatar for Christopher Lee",
+      "imageUrl": "https://picsum.photos/seed/businessman3/100/100",
+      "imageHint": "business person"
     },
     {
       "id": "digital-startup",
-      "description": "A modern and clean workspace with a laptop displaying financial charts and a smartphone, suggesting a digital business.",
-      "imageUrl": "https://picsum.photos/seed/startup-new/600/450",
-      "imageHint": "digital business"
+      "description": "A successful business man in a modern office, looking confidently at the camera.",
+      "imageUrl": "https://picsum.photos/seed/business-man-startup/600/450",
+      "imageHint": "businessman professional"
     },
     {
       "id": "og-image",
@@ -37,52 +37,52 @@
       "imageHint": "logo brand"
     },
     {
-      "id": "city-1",
-      "description": "Iconic view of Paris with the Eiffel Tower.",
-      "imageUrl": "https://picsum.photos/seed/city1/192/256",
-      "imageHint": "paris eiffel"
+      "id": "professional-1",
+      "description": "Portrait of a business professional from North America.",
+      "imageUrl": "https://picsum.photos/seed/prof1/192/256",
+      "imageHint": "businessman portrait"
     },
     {
-      "id": "city-2",
-      "description": "Tokyo skyline at night with vibrant city lights.",
-      "imageUrl": "https://picsum.photos/seed/city2/192/256",
-      "imageHint": "tokyo skyline"
+      "id": "professional-2",
+      "description": "Portrait of a business professional from Europe.",
+      "imageUrl": "https://picsum.photos/seed/prof2/192/256",
+      "imageHint": "professional male"
     },
     {
-      "id": "city-3",
-      "description": "New York City street view with skyscrapers.",
-      "imageUrl": "https://picsum.photos/seed/city3/192/256",
-      "imageHint": "newyork city"
+      "id": "professional-3",
+      "description": "Portrait of a business professional from Asia.",
+      "imageUrl": "https://picsum.photos/seed/prof3/192/256",
+      "imageHint": "asian businessman"
     },
     {
-      "id": "city-4",
-      "description": "London city view with the Big Ben.",
-      "imageUrl": "https://picsum.photos/seed/city4/192/256",
-      "imageHint": "london bigben"
+      "id": "professional-4",
+      "description": "Portrait of a business professional from South America.",
+      "imageUrl": "https://picsum.photos/seed/prof4/192/256",
+      "imageHint": "latino businessman"
     },
     {
-      "id": "city-5",
-      "description": "The ancient pyramids of Giza in Cairo.",
-      "imageUrl": "https://picsum.photos/seed/city5/192/256",
-      "imageHint": "cairo pyramids"
+      "id": "professional-5",
+      "description": "Portrait of a business professional from Africa.",
+      "imageUrl": "https://picsum.photos/seed/prof5/192/256",
+      "imageHint": "african businessman"
     },
     {
-      "id": "city-6",
-      "description": "The Sydney Opera House in Australia.",
-      "imageUrl": "https://picsum.photos/seed/city6/192/256",
-      "imageHint": "sydney opera"
+      "id": "professional-6",
+      "description": "Portrait of a business professional from Australia.",
+      "imageUrl": "https://picsum.photos/seed/prof6/192/256",
+      "imageHint": "male portrait"
     },
     {
-      "id": "city-7",
-      "description": "View of Rio de Janeiro with the Christ the Redeemer statue.",
-      "imageUrl": "https://picsum.photos/seed/city7/192/256",
-      "imageHint": "rio christ"
+      "id": "professional-7",
+      "description": "Portrait of a business professional from the Middle East.",
+      "imageUrl": "https://picsum.photos/seed/prof7/192/256",
+      "imageHint": "middle-eastern man"
     },
     {
-      "id": "city-8",
-      "description": "Modern architecture in Beijing.",
-      "imageUrl": "https://picsum.photos/seed/city8/192/256",
-      "imageHint": "beijing architecture"
+      "id": "professional-8",
+      "description": "Portrait of another business professional.",
+      "imageUrl": "https://picsum.photos/seed/prof8/192/256",
+      "imageHint": "business professional"
     }
   ]
 }

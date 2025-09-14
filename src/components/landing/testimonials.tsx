@@ -10,19 +10,19 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     id: "testimonial-1",
-    name: "Jane Doe",
+    name: "Alex Johnson",
     role: "Digital Marketer",
     quote: "HelaLink has been a game-changer for my side income. The tasks are easy, and the payouts are always on time. Highly recommended!",
   },
   {
     id: "testimonial-2",
-    name: "John Smith",
+    name: "Benjamin Carter",
     role: "Student",
     quote: "As a student, every extra dollar counts. HelaLink provides a flexible way to earn money without affecting my studies. The referral program is amazing!",
   },
   {
     id: "testimonial-3",
-    name: "Samuel Green",
+    name: "Christopher Lee",
     role: "Freelancer",
     quote: "I've tried many platforms, but HelaLink stands out. The variety of earning methods and the supportive community make it the best.",
   },
