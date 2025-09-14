@@ -32,51 +32,51 @@
     },
     {
       "id": "professional-1",
-      "description": "Portrait of a young entrepreneur from North America.",
-      "imageUrl": "https://picsum.photos/seed/ent1/192/256",
-      "imageHint": "entrepreneur portrait"
+      "description": "Person working on a laptop with charts in the background.",
+      "imageUrl": "https://picsum.photos/seed/mmo1/192/256",
+      "imageHint": "online business"
     },
     {
       "id": "professional-2",
-      "description": "Portrait of a female entrepreneur from Europe.",
-      "imageUrl": "https://picsum.photos/seed/ent2/192/256",
-      "imageHint": "female entrepreneur"
+      "description": "Smiling person receiving a payment notification on their phone.",
+      "imageUrl": "https://picsum.photos/seed/mmo2/192/256",
+      "imageHint": "mobile payment"
     },
     {
       "id": "professional-3",
-      "description": "Portrait of a tech entrepreneur from Asia.",
-      "imageUrl": "https://picsum.photos/seed/ent3/192/256",
-      "imageHint": "asian entrepreneur"
+      "description": "A person analyzing financial data on a tablet.",
+      "imageUrl": "https://picsum.photos/seed/mmo3/192/256",
+      "imageHint": "financial analysis"
     },
     {
       "id": "professional-4",
-      "description": "Portrait of a creative entrepreneur from South America.",
-      "imageUrl": "https://picsum.photos/seed/ent4/192/256",
-      "imageHint": "latino entrepreneur"
+      "description": "Digital nomad working from a scenic location.",
+      "imageUrl": "https://picsum.photos/seed/mmo4/192/256",
+      "imageHint": "remote work"
     },
     {
       "id": "professional-5",
-      "description": "Portrait of a startup founder from Africa.",
-      "imageUrl": "https://picsum.photos/seed/ent5/192/256",
-      "imageHint": "african founder"
+      "description": "Hands typing on a laptop with a coffee nearby.",
+      "imageUrl": "https://picsum.photos/seed/mmo5/192/256",
+      "imageHint": "freelance lifestyle"
     },
     {
       "id": "professional-6",
-      "description": "Portrait of a successful entrepreneur from Australia.",
-      "imageUrl": "https://picsum.photos/seed/ent6/192/256",
-      "imageHint": "male entrepreneur"
+      "description": "A person shopping online with a credit card.",
+      "imageUrl": "https://picsum.photos/seed/mmo6/192/256",
+      "imageHint": "ecommerce transaction"
     },
     {
       "id": "professional-7",
-      "description": "Portrait of a smiling entrepreneur from the Middle East.",
-      "imageUrl": "https://picsum.photos/seed/ent7/192/256",
-      "imageHint": "middle-eastern entrepreneur"
+      "description": "Someone creating content for their online business.",
+      "imageUrl": "https://picsum.photos/seed/mmo7/192/256",
+      "imageHint": "content creation"
     },
     {
       "id": "professional-8",
-      "description": "Portrait of another inspiring entrepreneur.",
-      "imageUrl": "https://picsum.photos/seed/ent8/192/256",
-      "imageHint": "inspiring entrepreneur"
+      "description": "A team collaborating online in a video call.",
+      "imageUrl": "https://picsum.photos/seed/mmo8/192/256",
+      "imageHint": "online collaboration"
     }
   ]
 }
