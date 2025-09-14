@@ -12,6 +12,9 @@ const headlines = [
   "Join a Global Community.",
   "Start Your Digital Business Today.",
   "Unlock Your Earning Potential.",
+  "Your Journey to Financial Freedom Starts Here.",
+  "Turn Your Screen Time into Earning Time.",
+  "Experience the Ultimate Digital Hustle.",
 ];
 
 export function Hero() {
@@ -56,7 +59,7 @@ export function Hero() {
         className="object-cover"
         priority
       />
-      <div className="absolute inset-0 bg-black/60 dark:bg-black/50" />
+      <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-20 container px-4 md:px-6 text-center text-white">
         <div className="space-y-4">
           <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
