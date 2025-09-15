@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Inter } from 'next/font/google';
 import { FloatingWhatsAppButton } from '@/components/landing/floating-whatsapp-button';
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -84,6 +85,7 @@ export default function RootLayout({
         {children}
         <FloatingWhatsAppButton />
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
