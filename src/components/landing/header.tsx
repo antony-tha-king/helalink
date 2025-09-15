@@ -21,11 +21,6 @@ export function Header() {
           <span className="font-bold text-xl">HelaLink</span>
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <Button asChild className="hidden sm:inline-flex glitter-effect">
-            <Link href="https://wa.me/254111918657?text=Hello,%20Am%20Interested%20In%20HelaLink">
-              Message us on WhatsApp
-            </Link>
-          </Button>
            <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
@@ -47,6 +42,11 @@ export function Header() {
                     {link.label}
                   </Link>
                 ))}
+                 <Button asChild className="mt-4 glitter-effect">
+                  <Link href="https://wa.me/254111918657?text=Hello,%20Am%20Interested%20In%20HelaLink" target="_blank" rel="noopener noreferrer">
+                    Message us on WhatsApp
+                  </Link>
+                </Button>
                 <Button asChild className="mt-4 glitter-effect">
                   <Link href="https://helalink.com/register.php?ref=antony" target="_blank" rel="noopener noreferrer">
                     Sign Up
