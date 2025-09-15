@@ -22,8 +22,8 @@ export function Header() {
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <Button asChild className="hidden sm:inline-flex glitter-effect">
-            <Link href="https://helalink.com/register.php?ref=antony" target="_blank" rel="noopener noreferrer">
-              Sign Up
+            <Link href="https://wa.me/254111918657?text=Hello,%20Am%20Interested%20In%20HelaLink">
+              Message us on WhatsApp
             </Link>
           </Button>
            <Sheet>
