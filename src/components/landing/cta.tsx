@@ -15,7 +15,7 @@ export function Cta() {
         </div>
         <div className="mx-auto w-full max-w-sm space-y-2">
           <Button asChild size="lg" className="w-full font-semibold">
-            <Link href="https://wa.me/254117993236?text=Hello,%20Am%20Interested%20In%20HelaLink">
+            <Link href="https://wa.me/254117993236?text=Hi,%20tell%20me%20more%20about%20helalink!">
               Start Now on WhatsApp
             </Link>
           </Button>
