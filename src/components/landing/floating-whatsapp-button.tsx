@@ -27,7 +27,7 @@ export function FloatingWhatsAppButton() {
           className="fixed bottom-6 right-6 z-50"
         >
           <Link
-            href="https://wa.me/254111918657?text=Hello,%20Am%20Interested%20In%20HelaLink"
+            href="https://wa.me/254117993236?text=Hello,%20Am%20Interested%20In%20HelaLink"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-16 w-16 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition-transform hover:scale-110"
