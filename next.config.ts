@@ -3,15 +3,6 @@ import type {NextConfig} from 'next';
 const nextConfig: NextConfig = {
   output: 'export',
   /* config options here */
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: 'https://helalink.com/register.php?ref=antony',
-        permanent: true,
-      },
-    ]
-  },
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -34,7 +25,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https,
         hostname: 'picsum.photos',
         port: '',
         pathname: '/**',
