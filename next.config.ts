@@ -2,15 +2,6 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: 'https://helalink.com/register.php?ref=antony',
-        permanent: true,
-      },
-    ]
-  },
   /* config options here */
   typescript: {
     ignoreBuildErrors: true,
